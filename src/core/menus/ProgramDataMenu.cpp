@@ -20,7 +20,7 @@
 #include "EditMenu.h"
 #include "ProgramData.h"
 #include "ScreenStartInfo.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 using namespace ProgramData;
 

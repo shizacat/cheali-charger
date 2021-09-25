@@ -23,9 +23,9 @@
 #include "TxHardSerial.h"
 #include "irq_priority.h"
 #include "Settings.h"
-#include "Serial.h"
+#include "cpu/Serial.h"
 
-#include "IO.h"
+#include "cpu/IO.h"
 
 
 namespace TxHardSerial {

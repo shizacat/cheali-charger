@@ -26,7 +26,7 @@
 #include "Discharger.h"
 #include "Buzzer.h"
 
-#include "Timer1.h"
+#include "cpu/Timer1.h"
 
 #include STRINGS_HEADER
 

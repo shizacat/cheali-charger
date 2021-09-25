@@ -1,6 +1,6 @@
 /*
     cheali-charger - open source firmware for a variety of LiPo chargers
-    Copyright (C) 2013  Pawe³ Stawicki. All right reserved.
+    Copyright (C) 2013  Paweï¿½ Stawicki. All right reserved.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 */
 
 #include "AnalogInputsPrivate.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Utils.h"
 
 const AnalogInputs::DefaultValues AnalogInputs::inputsP_[] PROGMEM = {

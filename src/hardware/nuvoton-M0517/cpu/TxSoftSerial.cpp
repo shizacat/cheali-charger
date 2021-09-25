@@ -22,9 +22,9 @@
 #include "Hardware.h"
 #include "TxSoftSerial.h"
 #include "irq_priority.h"
-#include "Serial.h"
+#include "cpu/Serial.h"
 
-#include "IO.h"
+#include "cpu/IO.h"
 
 namespace TxSoftSerial {
 

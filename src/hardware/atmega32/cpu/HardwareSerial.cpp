@@ -103,7 +103,7 @@ struct ring_buffer
 
 inline void store_char(unsigned char c, ring_buffer *buffer)
 {
-  int i = (unsigned int)(buffer->head + 1) % SERIAL_BUFFER_SIZE;
+  unsigned int i = (unsigned int)(buffer->head + 1) % SERIAL_BUFFER_SIZE;
 
   // if we should be storing the received character into the location
   // just before the tail (meaning that the head would advance to the
@@ -481,7 +481,7 @@ void HardwareSerial::flush()
 
 size_t HardwareSerial::write(uint8_t c)
 {
-  int i = (_tx_buffer->head + 1) % SERIAL_BUFFER_SIZE;
+  unsigned int i = (_tx_buffer->head + 1) % SERIAL_BUFFER_SIZE;
 
   // If the output buffer is full, there's nothing for it other than to
   // wait for the interrupt handler to empty it a bit

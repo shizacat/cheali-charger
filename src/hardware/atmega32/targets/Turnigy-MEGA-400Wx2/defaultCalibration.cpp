@@ -17,7 +17,7 @@
 */
 
 #include "AnalogInputsPrivate.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 //file provided by: Jozsef N.
 //TODO: calibrate Vb6_pin, Textern

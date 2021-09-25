@@ -17,7 +17,7 @@
 */
 #include "EditMenu.h"
 #include "Keyboard.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "LcdPrint.h"
 #include "Blink.h"
 

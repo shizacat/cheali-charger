@@ -19,7 +19,7 @@
 #include "SMPS_PID.h"
 #include "AnalogInputsADC.h"
 #include "SerialLog.h"
-#include "IO.h"
+#include "cpu/IO.h"
 #include "Keyboard.h"
 #include "outputPWM.h"
 #include "LiquidCrystal.h"

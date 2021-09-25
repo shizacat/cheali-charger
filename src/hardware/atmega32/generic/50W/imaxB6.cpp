@@ -16,12 +16,12 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "Hardware.h"
-#include "Timer1.h"
-#include "Timer0.h"
+#include "cpu/Timer1.h"
+#include "cpu/Timer0.h"
 #include "SMPS_PID.h"
 #include "AnalogInputsADC.h"
 #include "SerialLog.h"
-#include "IO.h"
+#include "cpu/IO.h"
 #include "Keyboard.h"
 #include "LiquidCrystal.h"
 

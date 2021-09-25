@@ -32,7 +32,7 @@
 #include "Hardware.h"
 #include "eeprom.h"
 #include "Balancer.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Menu.h"
 
 namespace Calibration {

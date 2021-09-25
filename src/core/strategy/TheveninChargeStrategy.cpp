@@ -22,7 +22,7 @@
 #include "Screen.h"
 #include "TheveninMethod.h"
 #include "Balancer.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 namespace TheveninChargeStrategy {
     const Strategy::VTable vtable PROGMEM = {

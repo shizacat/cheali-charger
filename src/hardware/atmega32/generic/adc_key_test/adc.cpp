@@ -19,12 +19,12 @@
 #include <util/delay_basic.h>
 #include <avr/interrupt.h>
 #include <avr/io.h>
-#include "atomic.h"
+#include "cpu/atomic.h"
 #include "Hardware.h"
 #include "adc.h"
 #include "Utils.h"
-#include "memory.h"
-#include "IO.h"
+#include "cpu/memory.h"
+#include "cpu/IO.h"
 #include "Settings.h"
 #include "AnalogInputsPrivate.h"
 

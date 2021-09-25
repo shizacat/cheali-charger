@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "ProgramData.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "LcdPrint.h"
 #include "ProgramDataMenu.h"
 #include "Utils.h"

@@ -19,7 +19,7 @@
 #include "Strategy.h"
 #include "LcdPrint.h"
 #include "Buzzer.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Monitor.h"
 #include "AnalogInputs.h"
 #include "Screen.h"

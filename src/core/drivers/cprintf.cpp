@@ -18,7 +18,7 @@
 
 
 #include "cprintf.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "LcdPrint.h"
 #include "ProgramData.h"
 

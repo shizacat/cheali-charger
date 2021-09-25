@@ -22,7 +22,7 @@
 #include "Balancer.h"
 #include "TheveninMethod.h"
 #include "Settings.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 namespace TheveninDischargeStrategy {
     const Strategy::VTable vtable PROGMEM = {

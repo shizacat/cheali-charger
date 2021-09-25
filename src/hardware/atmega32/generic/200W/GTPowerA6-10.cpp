@@ -18,8 +18,8 @@
 
 #include "Hardware.h"
 #include "AnalogInputsADC.h"
-#include "IO.h"
-#include "Timer0.h"
+#include "cpu/IO.h"
+#include "cpu/Timer0.h"
 #include "LiquidCrystal.h"
 
 #ifndef PINS_H_

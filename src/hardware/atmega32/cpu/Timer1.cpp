@@ -1,9 +1,9 @@
 #include <avr/interrupt.h>
 
-#include "Timer1.h"
+#include "cpu/Timer1.h"
 #include "Hardware.h"
-#include "atomic.h"
-#include "IO.h"
+#include "cpu/atomic.h"
+#include "cpu/IO.h"
 
 namespace {
     volatile uint16_t Timer1_valueA=0;

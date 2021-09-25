@@ -17,7 +17,7 @@
 */
 
 #define STRINGS_CPP_
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Utils.h"
 #include "Hardware.h"
 

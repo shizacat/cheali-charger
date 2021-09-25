@@ -16,15 +16,15 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "atomic.h"
+#include "cpu/atomic.h"
 #include "Hardware.h"
 #include "SMPS_PID.h"
 #include "adc.h"
 #include "Utils.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Settings.h"
 #include "AnalogInputsPrivate.h"
-#include "IO.h"
+#include "cpu/IO.h"
 #include "SMPS.h"
 #include "Discharger.h"
 #include "irq_priority.h"

@@ -21,7 +21,7 @@
 #include "AnalogInputs.h"
 #include "ProgramData.h"
 #include "Settings.h"
-#include "cpu.h"
+#include "cpu/cpu.h"
 
 #define EEPROM_MAGIC_STRING_LEN 4
 

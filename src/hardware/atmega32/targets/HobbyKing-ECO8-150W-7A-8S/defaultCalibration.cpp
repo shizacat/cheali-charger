@@ -17,7 +17,7 @@
 */
 
 #include "AnalogInputsPrivate.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Utils.h"
 
 //based on DieHertz eeprom

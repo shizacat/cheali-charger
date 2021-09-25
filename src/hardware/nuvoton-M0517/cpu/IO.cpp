@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "IO.h"
+#include "cpu/IO.h"
 
 #define PORT_OFFSET   0x40
 

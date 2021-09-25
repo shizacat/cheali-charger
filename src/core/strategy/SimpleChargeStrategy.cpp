@@ -21,7 +21,7 @@
 #include "Hardware.h"
 #include "TheveninMethod.h"
 #include "Program.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 namespace SimpleChargeStrategy {
 

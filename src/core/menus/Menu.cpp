@@ -21,7 +21,7 @@
 #include "Menu.h"
 #include "Blink.h"
 #include "Utils.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 namespace Menu {
 

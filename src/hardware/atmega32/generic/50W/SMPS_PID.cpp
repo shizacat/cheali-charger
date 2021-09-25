@@ -1,8 +1,8 @@
 #include "Hardware.h"
 #include "SMPS_PID.h"
-#include "IO.h"
+#include "cpu/IO.h"
 #include "AnalogInputs.h"
-#include "atomic.h"
+#include "cpu/atomic.h"
 #include "Monitor.h"
 #include "Utils.h"
 

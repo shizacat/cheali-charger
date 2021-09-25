@@ -18,11 +18,11 @@
 #define __STDC_LIMIT_MACROS
 #include "Hardware.h"
 #include "AnalogInputsPrivate.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "LcdPrint.h"
 #include "SerialLog.h"
 #include "eeprom.h"
-#include "atomic.h"
+#include "cpu/atomic.h"
 #include "Balancer.h"
 
 #define ANALOG_INPUTS_E_OUT_dt_FACTOR   50

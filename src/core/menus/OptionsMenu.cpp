@@ -21,7 +21,7 @@
 #include "SettingsMenu.h"
 #include "Hardware.h"
 #include "eeprom.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 using namespace options;
 

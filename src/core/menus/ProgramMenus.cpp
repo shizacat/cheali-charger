@@ -23,7 +23,7 @@
 #include "Utils.h"
 #include "LcdPrint.h"
 #include "ProgramDataMenu.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 // Program selection, depends on the battery type
 

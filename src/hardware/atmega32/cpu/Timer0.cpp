@@ -15,9 +15,9 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "Timer0.h"
+#include "cpu/Timer0.h"
 #include "Hardware.h"
-#include "IO.h"
+#include "cpu/IO.h"
 #include "Settings.h"
 
 #include <avr/interrupt.h>

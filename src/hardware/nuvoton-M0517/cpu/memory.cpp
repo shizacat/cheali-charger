@@ -15,10 +15,10 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "memory.h"
+#include "cpu/memory.h"
 
 #include "M051Series.h"
-#include "atomic.h"
+#include "cpu/atomic.h"
 
 #define PAGE_SIZE         512
 #define PAGE_SIZE_32B     128

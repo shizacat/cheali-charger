@@ -21,7 +21,7 @@
 #include "Menu.h"
 #include "ProgramData.h"
 #include "LcdPrint.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 using namespace options;
 

@@ -1,7 +1,7 @@
 #ifndef SMPS_PID_H_
 #define SMPS_PID_H_
 
-#include "Timer1.h"
+#include "cpu/Timer1.h"
 #include "Hardware.h"
 
 //MV - manipulated variable in PID

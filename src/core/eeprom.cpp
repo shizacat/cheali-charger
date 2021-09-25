@@ -20,7 +20,7 @@
 #include "ProgramData.h"
 #include "Hardware.h"
 #include "Settings.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Version.h"
 #include "eeprom.h"
 #include "Screen.h"

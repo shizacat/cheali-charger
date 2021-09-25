@@ -27,11 +27,11 @@
 #include "Hardware.h"
 #include "SerialLog.h"
 #include "eeprom.h"
-#include "cpu.h"
-#include "Serial.h"
+#include "cpu/cpu.h"
+#include "cpu/Serial.h"
 #include "Screen.h"
 #include "helper.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 
 void setup()

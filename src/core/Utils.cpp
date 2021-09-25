@@ -19,7 +19,7 @@
 #include "Utils.h"
 #include "Hardware.h"
 #include "AnalogInputs.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 void callVoidMethod_P(const VoidMethod * method)
 {

@@ -22,7 +22,7 @@
 #include "Settings.h"
 #include "AnalogInputsPrivate.h"
 #include "Hardware.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Utils.h"
 
 //#define ENABLE_DEBUG

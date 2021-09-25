@@ -19,17 +19,17 @@
 #include "LcdPrint.h"
 #include "Program.h"
 #include "Settings.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Version.h"
 #include "TheveninMethod.h"
 #include "StackInfo.h"
-#include "IO.h"
+#include "cpu/IO.h"
 #include "SerialLog.h"
 #include "AnalogInputsPrivate.h"
 #include "Balancer.h"
 
 #ifdef ENABLE_SERIAL_LOG
-#include "Serial.h"
+#include "cpu/Serial.h"
 #endif //ENABLE_SERIAL_LOG
 
 #include "Monitor.h"

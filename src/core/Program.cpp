@@ -28,7 +28,7 @@
 #include "StorageStrategy.h"
 #include "Balancer.h"
 #include "Monitor.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "StartInfoStrategy.h"
 #include "Buzzer.h"
 #include "Settings.h"

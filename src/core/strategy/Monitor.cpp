@@ -15,7 +15,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include "atomic.h"
+#include "cpu/atomic.h"
 #include "AnalogInputs.h"
 #include "Hardware.h"
 
@@ -24,7 +24,7 @@
 #include "Settings.h"
 #include "ProgramData.h"
 #include "Program.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Balancer.h"
 
 #include "LcdPrint.h"

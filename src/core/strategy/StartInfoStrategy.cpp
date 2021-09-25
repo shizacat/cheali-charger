@@ -19,7 +19,7 @@
 #include "StartInfoStrategy.h"
 #include "ProgramData.h"
 #include "Screen.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Settings.h"
 #include "Program.h"
 #include "Utils.h"

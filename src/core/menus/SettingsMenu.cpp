@@ -21,7 +21,7 @@
 #include "Buzzer.h"
 #include "SerialLog.h"
 #include "EditMenu.h"
-#include "memory.h"
+#include "cpu/memory.h"
 
 //#define ENABLE_DEBUG
 #include "debug.h"

@@ -18,7 +18,7 @@
 #include "Hardware.h"
 #include "Keyboard.h"
 #include "Buzzer.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Utils.h"
 //#define ENABLE_DEBUG
 #include "debug.h"

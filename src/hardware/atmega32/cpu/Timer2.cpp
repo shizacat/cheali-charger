@@ -17,7 +17,7 @@
 */
 #include "Time.h"
 #include "Hardware.h"
-#include "atomic.h"
+#include "cpu/atomic.h"
 
 
 // time measurement - It uses atmega32/Timer2 to measure TIMER_INTERRUPT_PERIOD_MICROSECONDS

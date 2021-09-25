@@ -22,7 +22,7 @@
 #include "Screen.h"
 #include "SerialLog.h"
 #include "AnalogInputsPrivate.h"
-#include "atomic.h"
+#include "cpu/atomic.h"
 
 //#define ENABLE_DEBUG
 #include "debug.h"

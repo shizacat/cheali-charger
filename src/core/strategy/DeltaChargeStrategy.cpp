@@ -21,7 +21,7 @@
 #include "Screen.h"
 #include "TheveninMethod.h"
 #include "Program.h"
-#include "memory.h"
+#include "cpu/memory.h"
 #include "Settings.h"
 
 #define DELTA_COUNTS_PER_MINUTE (60/(ANALOG_INPUTS_DELTA_TIME_MILISECONDS/1000))
